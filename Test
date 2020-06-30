@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laptop for you!</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        body{
+        background-image: url('Laptop.jpg');
+        }
+        h1,h2{
+        color: blue
+        }
+        .head{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 60px
+        }
+        td {
+        padding: 33px
+        }
+        table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        #t01 tr:nth-child(even) {
+        background-color: #009879;
+        }
+        #t01 tr:nth-child(odd) {
+          background-color: #fff;
+        }
+        thead td {
+        background-color: #009879;
+        }
+        table {
+        border-spacing: 1px;
+        }
+        .list, form{
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>These are some of our best selling laptops!</h1>
+    <form class="form">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <table style="90%" id="t01">
+        <thead class="head">
+        <tr>
+            <td>Dell</td>
+            <td>Lenovo</td>
+            <td>Apple</td>
+            <td>Asus</td>
+            <td>Microsoft</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img src="https://m.media-amazon.com/images/I/51IuvPNlALL._AC_UY327_QL65_.jpg"width="200px"></td>
+            <td><img src="https://m.media-amazon.com/images/I/81i3Elt6tcL._AC_UY327_QL65_.jpg"width="200px"></td>
+            <td><img src="https://m.media-amazon.com/images/I/51oCfZu2BWL._AC_UY327_FMwebp_QL65_.jpg"width="200px"></td>
+            <td><img src="https://m.media-amazon.com/images/I/71lbxXG9NSL._AC_UY327_QL65_.jpg"width="200px"></td>
+            <td><img src="https://m.media-amazon.com/images/I/51ZqIfidWfL._AC_UY327_FMwebp_QL65_.jpg"width="200px"></td>
+        </tr>
+        <tr>
+            <td>Processor: Intel i7</td>
+            <td>Processor: Intel i3</td>
+            <td>Processor: Intel i7</td>
+            <td>Processor: Intel i5</td>
+            <td>Processor: Intel i3</td>
+
+        </tr>
+        <tr>
+            <td>RAM: 12Gb</td>
+            <td>RAM: 8Gb</td>
+            <td>RAM: 16Gb</td>
+            <td>RAM: 12Gb</td>
+            <td>RAM: 8Gb</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.amazon.in/Dell-XPS-9570-i9-8950HK-Graphics/dp/B07NVKXJ78/ref=sr_1_4?dchild=1&keywords=dell+laptop&qid=1593509434&sr=8-4">More info</td>
+            <td><a href="https://www.amazon.in/Lenovo-Legion-Graphics-Windows-81UH006SIN/dp/B07WLFFX2D/ref=sr_1_3?dchild=1&keywords=lenovo+laptop&qid=1593509525&sr=8-3">More info</td>
+            <td><a href="https://www.amazon.in/Apple-MacBook-13-inch-Latest-Storage/dp/B07V4LYPJ6/ref=sr_1_5?dchild=1&keywords=apple+laptop&qid=1593509684&sr=8-5">More info</td>
+            <td><a href="https://www.amazon.in/Asus-G703GI-E5148T-17-3-inch-i9-8950HK-Processor/dp/B07GRCW51K/ref=sr_1_1?dchild=1&keywords=asus+laptop&qid=1593509748&sr=8-1">More info</td>
+            <td><a href="https://www.amazon.in/Microsoft-Surface-1876-13-inch-Graphics/dp/B086ZCH5HT/ref=sr_1_4?dchild=1&qid=1593519510&refinements=p_89%3AMicrosoft&s=computers&sr=1-4">More info</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2>Some famous websites for purchasing your laptop are: </h2>
+<ul class="list">
+    <li>Amazon.com</li>
+    <li>Flipkart.com</li>
+    <li>SnapDeal.com</li>
+
+
+</ul>
+</body>
+</html>
